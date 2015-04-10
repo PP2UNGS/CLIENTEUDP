@@ -33,7 +33,7 @@ public class TestClass {
 		enco.encolarMensajes(com2);		
 		Assert.assertEquals(messageCountExpected,enco.ejecutarEnvios());
 	}
-			
+	//testing cambio en git	
 	@Test //Comunicator
 	public void readConnectionSettings(){
 		Assert.assertEquals("127.0.0.1", com.getIp());
