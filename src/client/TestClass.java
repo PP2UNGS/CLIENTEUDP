@@ -52,7 +52,8 @@ public class TestClass {
 	public void aulaVacia2(){					
 			Assert.assertEquals("AULA VACIA",comEmpty.enviarMensaje());		
 	}
-	//@Test //Encolador
+	@Test //Encolador
+	// hola javier
 	public void ejecutarEnviosInfinitos(){
 		enco.setIntentos(-1);
 		enco.setSeconds(2);
