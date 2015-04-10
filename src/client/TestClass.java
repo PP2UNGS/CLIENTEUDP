@@ -48,6 +48,10 @@ public class TestClass {
 	public void aulaVacia(){					
 			Assert.assertEquals("AULA VACIA",comEmpty.enviarMensaje());		
 	}
+	@Test //Comunicator
+	public void aulaVacia2(){					
+			Assert.assertEquals("AULA VACIA",comEmpty.enviarMensaje());		
+	}
 	//@Test //Encolador
 	public void ejecutarEnviosInfinitos(){
 		enco.setIntentos(-1);
